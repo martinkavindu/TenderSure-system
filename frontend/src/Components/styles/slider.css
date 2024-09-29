@@ -1,0 +1,123 @@
+
+.slider-item{
+    max-width: 100%;
+    height: 650px;
+}
+.slider-item-01{
+    background: 
+    linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5))
+    ,url('../../assets/images/Tendersure-Homepage-Slider-1-4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.slider-item-02{
+    background: 
+    linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5))
+    ,url('../../assets//images/slide2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* .slider-item-03{
+    background: 
+    linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5))
+    ,url('../Assets/img/image4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} */
+.hero-slider{
+    overflow: hidden;
+}
+.slider-content{
+    padding-top: 150px;
+}
+.slider-content h1{
+ font-size: 3.2rem;   
+  font-weight: 600;
+}
+
+.cloud{
+    color: #00ffce;
+    font-family: Poppins;
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.header-text {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    
+    
+    left: 0px;
+    z-index: 11;
+  }
+  
+  .sub-header-text {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    width: 501px;
+    position: absolute;
+  
+    
+    left: 0px;
+    z-index: 12;
+  }
+  
+.available-jobs-link {
+    color: #08428c;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 21px;
+    padding: 16px 31px;
+    background-color: rgb(0, 214, 139);
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    top: 342px;
+    left: 0px;
+    z-index: 13;
+  }
+  
+  .available-jobs-link:hover {
+    background-color: #00ffce;
+    color: #08428c;
+  }
+  
+  .contact-us-link {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 21px;
+    padding: 14px 31px;
+    background-color: transparent;
+    text-decoration: none;
+    border: 3px solid #ffffff;
+    display: block;
+    position: absolute;
+    top: 341px;
+    left: 260px;
+    z-index: 8;
+  }
+  
+  .contact-us-link:hover {
+    background-color: #00ffce;
+    color: #08428c;
+    border-color: transparent;
+  }
+  
