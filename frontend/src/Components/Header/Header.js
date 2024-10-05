@@ -62,11 +62,11 @@ const Header = () => {
                 </span>
                 <span className="d-flex align-items-center gap-1">
                   <img src={fr} alt="france"/>
-                  Francias
+                  Français
                 </span>
                 <span className="d-flex align-items-center gap-1">
                   <img src={pt} alt="france" />
-                  Portuguese
+                  Português
                 </span>
                 <span className="d-flex align-items-center gap-1">
                   <img src={am} alt="amhric" /> Amharic

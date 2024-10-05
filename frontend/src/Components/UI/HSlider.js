@@ -28,11 +28,11 @@ const HSlider = () => {
   Promoting good governance, transparency and integrity in the procurement process.
 </p>
 
-<a href="http://www.tendersure.co.ke/available-jobs/" target="_self" rel="nofollow" class="available-jobs-link">
+<a href="/" target="_self" rel="nofollow" class="available-jobs-link">
   Available Jobs
 </a>
 
-<a href="http://www.tendersure.co.ke/contact-us/" target="_self" rel="nofollow" class="contact-us-link">
+<a href="/" target="_self" rel="nofollow" class="contact-us-link">
   Contact Us
 </a>
 
@@ -45,18 +45,19 @@ const HSlider = () => {
    <Container>
     <div className='slider-content'>
         <h4 className='cloud'>
-        A CLOUD BASED
+        AUTOMATED EVALUATION 
         </h4>
-        <p class="header-text">E-PROCUREMENT SOLUTION</p>
+        <p class="header-text">BIDS &amp; DOCUMENT VERIFICATION </p>
 <p class="sub-header-text">
-  Promoting good governance, transparency and integrity in the procurement process.
+TenderSure™ automates competitive supplier sourcing and identification process activities like prequalification of suppliers, request for quotations, tenders, eAuctions and Expressions of Interest (EOI) among others. 
+
 </p>
 
-<a href="http://www.tendersure.co.ke/available-jobs/" target="_self" rel="nofollow" class="available-jobs-link">
+<a href="/" target="_self" rel="nofollow" class="available-jobs-link">
   Available Jobs
 </a>
 
-<a href="http://www.tendersure.co.ke/contact-us/" target="_self" rel="nofollow" class="contact-us-link">
+<a href="/" target="_self" rel="nofollow" class="contact-us-link">
   Contact Us
 </a>
 
