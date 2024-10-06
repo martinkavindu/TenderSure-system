@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container ,Row ,Col } from 'reactstrap'
-import '../styles/Aboutsection.css'
+import '../styles/aboutsection.css';
 
 const Aboutsection = () => {
   return (

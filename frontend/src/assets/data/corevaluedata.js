@@ -1,7 +1,7 @@
-import efficiency from '../images/efficiency.png';
-import innovation from '../images/innovation.png';
+import efficiency from '../images/effeceincy.png';
+import innovation from '../images/innivation.png';
 import integrity from '../images/integrity.png';
-import transparency from '../images/transparency.png';
+import transparency from '../images/transaparency.png';
 
 const CorevData = [
   {

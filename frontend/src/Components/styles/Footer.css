@@ -1,0 +1,80 @@
+.footer{
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}  
+.footer i {
+    color: rgb(0, 153, 51);
+}
+.footer-logo-content{
+    color: #8b8b8b;
+    font-family: "Poppins", Tahoma, Geneva, sans-serif;
+    margin-left: 15px;
+line-height: 30px;
+font-weight: 300;
+
+}
+.section-description{
+    color: black;
+}
+.responsive-logo{
+    width: 100%;
+    max-width: 100% !important;
+    flex: 1 0 0%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.quick-links{
+    border: none !important;
+    background: transparent !important;
+    font-weight: 300;
+    color: black !important;
+ }
+
+ .quick-links a{
+    color: black !important;
+    text-decoration: none;
+ }
+ .quick-links a:hover{
+    color: orange;
+ }
+ .footer-link-title{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 28px;
+    color: #002c5b;
+ }
+ .office-info{
+    color: black !important;
+    font-weight: 300;
+ }
+
+ .footer-bottom{
+    border-top: 1px solid #7c8a972f;
+  
+
+ }
+ .footend{
+    background-color:  rgb(0, 44, 91);
+    color: #fff;
+    width: 1000px;
+ }
+ @media only screen and(max-width:768px){
+   .footer-logo-content{
+      font-size: 0.8rem;
+   }
+   .quick-links, 
+   .office-info{
+      font-size: 0.8rem;
+     line-height:1.5rem ;
+   }
+   .footer-link-title{
+      font-size: 1rem;
+      margin-top: 15px;
+   }
+   .footer-bottom p{
+      font-size: .7rem;
+   }
+ }
