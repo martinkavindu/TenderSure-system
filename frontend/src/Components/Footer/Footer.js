@@ -83,27 +83,26 @@ const Footer = () => {
           </Col>
  
           <Col lg="12">
-            <div className="footer-bottom">
-            <Row>
-                <Col lg="6">
-                <p className="copyright">
-                Copyright © 2023 Tendersure Africa SEZ Ltd. All Rights Reserved.
-                </p>
-                </Col>
+  <div className="footer-bottom">
+    <Row>
+      <Col lg="6">
+        <p className="copyright">
+          Copyright © {year} Tendersure Africa SEZ Ltd. All Rights Reserved.
+        </p>
+      </Col>
+      <Col lg="6">
+        <p className="bottom left">
+          <span>Home</span>
+          <span>FAQ</span>
+          <span>Privacy Policy</span>
+          <span>Contact Us</span>
+          <span>Terms & Conditions</span>
+        </p>
+      </Col>
+    </Row>
+  </div>
+</Col>
 
-                <Col lg="6">
-                <p className="bottom left" >
-                <span>Home</span>
-                <span>FAQ</span>
-                <span>Privacy Policy</span>
-                <span>Contact Us</span>
-                <span>Terms & Conditions</span>
-
-                </p>
-                </Col>
-            </Row>
-            </div>
-          </Col>
         
         </Row>
       </Container>

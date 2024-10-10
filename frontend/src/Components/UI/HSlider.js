@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from 'reactstrap'
+import { Col, Container, Row } from 'reactstrap'
 import Slider from 'react-slick'
 import { Link } from 'react-router-dom'
 import '../styles/slider.css';
@@ -19,7 +19,10 @@ const HSlider = () => {
 <Slider {...settings} className='hero-slider'>
 <div className='slider-item slider-item-01 mt-0'>
    <Container>
+   
    <div className='slider-content'>
+
+
         <h4 className='cloud'>
         A CLOUD BASED
         </h4>
@@ -37,13 +40,16 @@ const HSlider = () => {
 </a>
 
 
-           
+ 
     </div>
+   
     </Container> 
 </div>
 <div className='slider-item slider-item-02 mt-0'>
    <Container>
+   
     <div className='slider-content'>
+  
         <h4 className='cloud'>
         AUTOMATED EVALUATION 
         </h4>
@@ -62,8 +68,9 @@ TenderSure™ automates competitive supplier sourcing and identification process
 </a>
 
 
-           
-    </div>
+   </div>
+
+   
     </Container> 
 </div>
 

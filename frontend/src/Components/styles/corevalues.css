@@ -4,6 +4,13 @@
     color: #f9a826;
 
 }
+.headerc{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    color: #002c5b;
+}
 .service-item h6{
     font-size: 1.2rem;
     font-weight: 600;
@@ -15,6 +22,21 @@
 .service-item{
     margin-left: 5rem;
     margin-right: 5rem;
+}
+.section-descriptionc{
+    font-family: "Poppins", Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #7d8791;
+}
+.titlec{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #002c5b;
+    top: 5px;
 }
 @media only screen and (max-width:768px){
     .service-item h6{

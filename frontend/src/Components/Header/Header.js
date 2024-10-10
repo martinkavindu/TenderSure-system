@@ -115,7 +115,8 @@ justify-content-end gap-3"
               <div className="header-location d-flex align-items-center gap-2">
                 <span>
                   {" "}
-                  <i class="ri-phone-line"></i>
+                  <i className="ri-phone-line" style={{color: 'rgb(0, 153, 51)'}}></i>
+
                 </span>
                 <div className="header-location-content">
                   <h4>+254 709 557 000</h4>
@@ -126,7 +127,7 @@ justify-content-end gap-3"
               <div className="header-location d-flex align-items-center gap-2 ">
                 <span>
                   {" "}
-                  <i class="ri-mail-line"></i>
+                  <i class="ri-mail-line" style={{color: 'rgb(0, 153, 51)'}}></i>
                 </span>
                 <div className="header-location-content">
                   <h4>info@tendersure.africa</h4>
@@ -137,7 +138,7 @@ justify-content-end gap-3"
               <div className="header-location d-flex align-items-center gap-2 ">
                 <span>
                   {" "}
-                  <i class="ri-map-pin-line"></i> 
+                  <i class="ri-map-pin-line" style={{color: 'rgb(0, 153, 51)'}}></i> 
                 </span>
                 <div className="header-location-content">
                 <h4>Two Rivers, North Tower, 2nd
@@ -173,8 +174,8 @@ justify-content-end"
                 <input
                   type="text"
                   id=""
-                  name=""
-                  placeholder="Search"
+                  name="search"
+                
                   className="d-flex align-items-center"
                 />
                 <span>

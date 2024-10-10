@@ -1,4 +1,29 @@
 
+.section-subtitle{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #7d8791;
+}
+.section-title{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 46px;
+    color: #002c5b;
+}
+.section-description{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #7d8791;
+}
+
 @media only screen and (max-width:572px){
     .about-page-content{
         margin-top: 1rem;

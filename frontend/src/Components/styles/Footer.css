@@ -50,16 +50,31 @@ font-weight: 300;
     color: black !important;
     font-weight: 300;
  }
-
- .footer-bottom{
-    border-top: 1px solid #7c8a972f;
-  
-
+ .footer-bottom {
+   background-color: rgb(0, 44, 91); 
+   width: 100vw; 
+   margin-left: calc(-50vw + 50%); 
+   padding: 15px 0; 
+   color: white;
  }
- .footend{
-    background-color:  rgb(0, 44, 91);
-    color: #fff;
-    width: 1000px;
+ 
+ .footer-bottom p {
+margin-left: 20px;
+ }
+ 
+ .footer-bottom .bottom.left span {
+   margin-right: 10px; 
+ }
+
+ .bottom.left span {
+   position: relative;
+   padding-right: 10px;
+   margin-right: 10px; 
+   border-right: 1px solid white; 
+ }
+ 
+ .bottom.left span:last-child {
+   border-right: none;
  }
  @media only screen and(max-width:768px){
    .footer-logo-content{

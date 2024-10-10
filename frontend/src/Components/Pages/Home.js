@@ -12,14 +12,11 @@ const Home = () => {
 <section>
   <Slider/>
 </section>
-<section>
+<section className='mt-5'>
   <Aboutsection/>
 </section>
-<section>
-  <div className='corevalues'>
+<section className='mt-5'>
 
-<h3 className='ml-5'>CORE VALUES</h3>
-  </div>
 
   <Corevalues/>
 </section>
