@@ -70,6 +70,10 @@ justify-content-end gap-3"
             </Row>
           </Container>
         </div>
+
+        <div className="loginslides">
+
+        </div>
       </div>
     </>
   );
