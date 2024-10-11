@@ -26,7 +26,7 @@ const navLinks = [
     display: "Available Jobs",
   },
   {
-    path: "/Supplier World",
+    path: "/supplierlogin",
     display: "Supplier World",
   },
   {
