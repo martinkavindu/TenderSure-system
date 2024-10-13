@@ -5,8 +5,8 @@
 }
 .slider-item-01{
     background: 
-    linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5))
-    ,url('../Assets/img/image3.jpg');
+    linear-gradient()
+    ,url('../../assets/images/logins1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,8 +14,8 @@
 }
 .slider-item-02{
     background: 
-    linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5))
-    ,url('../Assets/img/image2.jpg');
+    linear-gradient()
+    ,url('../../assets/images/logins2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,8 +23,8 @@
 }
 .slider-item-03{
     background: 
-    linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5))
-    ,url('../Assets/img/image4.jpg');
+    linear-gradient()
+    ,url('../../assets/images/logins3.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

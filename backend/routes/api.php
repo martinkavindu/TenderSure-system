@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Api\ApiController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -16,4 +16,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
+});
+//API ROUTES
+Route::post("register", [ApiController::class, "register"]);
+Route::post("login", [ApiController::class, "login"]);
+
+//protected routes
+Route::group([
+    "middleware" =>["auth:api"]
+],function(){
+    Route::get('profile',[ApiController::class,'ProfileApi']);
+    Route::get('logout',[ApiController::class,'LogoutApi']);
+    Route::post('changepassword',[ApiController::class,'ChangePassword']);
+    Route::get('regeneratetoken',[ApiController::class,'Regeneratetoken']);
+
 });

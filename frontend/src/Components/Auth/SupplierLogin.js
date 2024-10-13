@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container,Row} from "reactstrap";
 import logo from "../../assets/images/logo.png";
+import Loginslider from "../UI/Loginslider";
 
 const SupplierLogin = () => {
   return (
@@ -71,8 +72,8 @@ justify-content-end gap-3"
           </Container>
         </div>
 
-        <div className="loginslides">
-
+        <div className="loginslides mt-5">
+        <Loginslider/>
         </div>
       </div>
     </>
