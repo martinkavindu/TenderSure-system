@@ -15,6 +15,15 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+            $table->string('companyType');
+            $table->string('location');
+            $table->string('country');
+            $table->string('contactName');
+            $table->string('phone');
+            $table->string('kra');
+            $table->string('physicalAddress');
+            $table->string('categoriesofInterest');
+            $table->string('supplyLocations');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
