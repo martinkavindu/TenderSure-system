@@ -22,6 +22,13 @@ class Kernel extends ConsoleKernel
     {
         $this->load(__DIR__.'/Commands');
 
+      
         require base_path('routes/console.php');
     }
+//     protected function schedule(Schedule $schedule)
+// {
+//     // Schedule the backup command to run weekly on Sunday at midnight
+//     $schedule->command('db:backup')->weeklyOn(7, '00:00');
+// }
+
 }
